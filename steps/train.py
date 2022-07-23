@@ -13,5 +13,6 @@ def estimator_fn():
     estimators.
     """
     from sklearn.linear_model import SGDRegressor
+    print("deleteme")
 
     return SGDRegressor(random_state=42)
